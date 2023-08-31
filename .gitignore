@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# CMake
+build
+
+# VS Code
+.vscode
+
+# Enviroment
+.env
