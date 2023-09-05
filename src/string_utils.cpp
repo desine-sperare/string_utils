@@ -7,7 +7,7 @@ namespace timlibs
     /// @param str source string
     /// @param separator separator
     /// @return List of strings devided by separator
-    std::vector<std::string> split(std::string str, const std::string& separator)
+    std::vector<std::string> split(std::string str, const std::string& separator = " ")
     {
         std::vector<std::string> value;
         while (str != "")
